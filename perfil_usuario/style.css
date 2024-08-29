@@ -1,0 +1,83 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    color: rgb(4, 4, 183);
+}
+
+header {
+    background-color:indianred;
+    color: antiquewhite;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#profile {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+#profile-pic {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#change-info {
+    background-color:steelblue;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#change-info:hover {
+    background-color: darkblue;
+}
+
+#comments {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:center;
+    padding: 20px;
+    width: 300px;
+}
+
+#comment-input {
+    padding: 30px 20px;
+}
+
+#add-comment {
+    background-color:steelblue;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#add-comment:hover {
+    background-color: darkblue;
+}
+
+footer {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
