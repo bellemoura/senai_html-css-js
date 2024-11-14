@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    font-family: serif;
+}
+.container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+}
