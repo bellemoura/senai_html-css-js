@@ -1,5 +1,5 @@
-const apiKey = '81ce887cfb068431f4f8695509a0de7d'; //chave API
-const city = 'Barueri'; //cidade desejada
+const apiKey = 'asasasasasasasasaaaa'; //chave API
+const city = 'São Paulo'; //cidade desejada
 const temperatureElement = document.getElementById('temperature');
 const weatherImageElement = document.getElementById('weather-image');
 
