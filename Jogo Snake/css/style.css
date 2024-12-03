@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    flex-direction: column;
+ 
+  }
+    
+  canvas {
+    border: 1px solid #fff;
+    background-color: rgb(48, 125, 128);
+  }
+
+  #nome {
+    color: purple;
+    justify-content: flex-end;
+  }
+
+  #inputVelocidade {
+    flex-direction: row;
+  }
